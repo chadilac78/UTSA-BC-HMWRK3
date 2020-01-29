@@ -1,0 +1,23 @@
+body {background-color: black;
+ }
+
+nav {margin-bottom: 25px;}
+
+.card {width: 50%;
+margin: 50px;}
+
+.card-body {background-color: lawngreen;}
+
+img {margin: 20px;
+    float: left;
+    width: 200px;
+height: 200px;}
+
+p {font-family: 'Sigmar One', cursive;;
+    font-size: 18px;
+    display: block;
+    margin-block-end: 0px;
+    margin-top: 0px;
+margin bottom: 5px}
+
+.container {background-color: lavender;}
