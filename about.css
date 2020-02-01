@@ -35,3 +35,9 @@ p {
 .card {
 	float: left;
 }
+
+@media screen and (max-width: 600px) {
+	body {
+		background-color: lightblue;
+	}
+
