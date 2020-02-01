@@ -1,5 +1,18 @@
-.container {background-color: lawngreen;
-padding: 20px;
-margin-top: 25px;}
+.container {
+	background-color: silver;
+	padding: 20px;
+	margin-top: 25px;
+	margin-left: 5px;
+}
 
-body {background-color: lightsalmon;}
+body {
+	background-image: url("assets/images/kasra-assadian-QTiQ4ujnKeg-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: right top;
+}
+
+h1 {
+	text-underline-position: below;
+}
