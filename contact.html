@@ -13,49 +13,64 @@
 	<!--NAV BAR LG NAVBAR DARK COLAPSES WHEN SCREEN SHRINKS-->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<span class="navbar-brand">Chadrick Worthan</span>
+		<!--ABOUT/PORTFOLIO/CONTACT BUTTONS W/ HREFS TO PAGES-->
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
 			aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
-
 		</button>
 
-		<body>
-			<div class="collapse navbar-collapse" id="navbarText">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">ABOUT</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="portfolio.html">PORTFOLIO</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="contact.html">CONTACT</a>
-					</li>
-				</ul>
-			</div>
+		<div class="collapse navbar-collapse" id="navbarText">
+			<ul class="navbar-nav mr-auto">
+				<!--ABOUT BUTTON-->
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">ABOUT</a>
+				</li>
+				<!--PORTFOLIO BUTTON-->
+				<li class="nav-item">
+					<a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+				</li>
+				<!--CONTACT BUTTON-->
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">CONTACT</a>
+				</li>
+			</ul>
+		</div>
 	</nav>
 	<!--FORM SECTION-->
 	<section class="container">
 		<h1>CONTACT</h1>
 		<form>
 			<!--NAME ENTRY-->
-			<div class="form-group">
-				<label for="formGroupExampleInput">Name</label>
-				<!--INPUT TYPE REGULAR TEXT-->
-				<input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name" />
+			<div class="row">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label for="formGroupExampleInput">Name</label>
+						<!--INPUT TYPE REGULAR TEXT-->
+						<input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name" />
+					</div>
+				</div>
 			</div>
 			<!--EMAIL ADDRESS-->
-			<div class="form-group">
-				<label for="exampleFormControlInput1">Email address</label>
-				<!--INPUT TYPE EMAIL-->
-				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+			<div class="row">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label for="exampleFormControlInput1">Email address</label>
+						<!--INPUT TYPE EMAIL-->
+						<input type="email" class="form-control" id="exampleFormControlInput1"
+							placeholder="name@example.com" />
+					</div>
+				</div>
 			</div>
 			<!--MESSAGE-->
-			<div class="form-group">
-				<label for="exampleFormControlSelect2">Message</label>
-				<!--MESSAGE ENTRY LARGER TEXT AREA THAN REGULAR TEXT TYPE-->
-				<textarea name="career[message]" class="form-control" tabindex="4" placeholder="Write your message"
-					required></textarea>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label for="exampleFormControlSelect2">Message</label>
+						<!--MESSAGE ENTRY LARGER TEXT AREA THAN REGULAR TEXT TYPE-->
+						<textarea name="career[message]" class="form-control" tabindex="4"
+							placeholder="Write your message" required></textarea>
+					</div>
+				</div>
 			</div>
 			<button type="button" class="btn btn-primary btn-lg">Submit</button>
 		</form>
@@ -71,5 +86,10 @@
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 		crossorigin="anonymous"></script>
 </body>
+<!--FOOTER-->
+<footer>
+	<p>DESIGNED BY CHAD WORTHAN
+	</p>
+</footer>
 
 </html>

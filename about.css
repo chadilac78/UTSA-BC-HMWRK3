@@ -1,4 +1,7 @@
-body {
+
+
+body {width: 100%;
+	height: 100%;
 	background-image: url("assets/images/backround.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -19,7 +22,7 @@ img {
 }
 
 p {
-	font-family: "Sigmar One", cursive;
+	font-family: "Sigmar One", cursive;;
 	font-size: 18px;
 	display: block;
 	margin-block-end: 0px;
@@ -27,17 +30,18 @@ p {
 	marginbottom: 5px;
 }
 
-.container {
+.container {height: 600px;
 	margin-top: 20px;
-	margin-left: 0px;
+	margin-left: 5px;
 }
 
 .card {
 	float: left;
 }
 
-@media screen and (max-width: 600px) {
-	body {
-		background-color: lightblue;
-	}
-
+footer {text-align: center;
+	color: white;
+	position: absolute;
+	right: 0; bottom:0; left:0;
+	background-color:darkgray;
+	margin-bottom: 0px;}
