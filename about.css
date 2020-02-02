@@ -1,12 +1,17 @@
 
+html {height: 100%;}
 
-body {width: 100%;
-	height: 100%;
+body {
+	width: 100%;
 	background-image: url("assets/images/backround.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: right top;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+
 }
 
 .card-body {
@@ -25,9 +30,7 @@ p {
 	font-family: "Sigmar One", cursive;;
 	font-size: 18px;
 	display: block;
-	margin-block-end: 0px;
-	margin-top: 0px;
-	marginbottom: 5px;
+
 }
 
 .container {height: 600px;
@@ -39,9 +42,9 @@ p {
 	float: left;
 }
 
-footer {text-align: center;
+footer {
+	margin-top: auto;
+	text-align: center;
 	color: white;
-	position: absolute;
-	right: 0; bottom:0; left:0;
 	background-color:darkgray;
-	margin-bottom: 0px;}
+	}
