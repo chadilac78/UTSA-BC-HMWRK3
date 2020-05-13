@@ -18,7 +18,6 @@
 			aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-
 		<div class="collapse navbar-collapse" id="navbarText">
 			<ul class="navbar-nav mr-auto">
 				<!--ABOUT BUTTON-->
@@ -36,47 +35,55 @@
 			</ul>
 		</div>
 	</nav>
-	<!--FORM SECTION-->
-	<section class="container">
-		<h1>CONTACT</h1>
-		<form>
-			<!--NAME ENTRY-->
-			<div class="row">
-				<div class="col-md-12">
-					<div class="form-group">
-						<label for="formGroupExampleInput">Name</label>
-						<!--INPUT TYPE REGULAR TEXT-->
-						<input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name" />
+
+	<div class="container">
+		<h1>Contact Info</h1>
+		<div class="row">
+			<!--FIRST CARD (CODE REFRACTOR)-->
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="assets/images/git hub.png" alt="Git Hub" />
+					<div class="card-body"></div>
+					<h2 class="card-title"><a href="https://github.com/chadilac78">Git Hub Repository</a></h2>
+					<p class="card-text">
+						Link to my Git Hub Repository
+					</p>
+				</div>
+			</div>
+			<!--MIDDLE CARD TOP ROW-->
+
+			<!--RIGHT CARD TOP ROW-->
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="assets\images\professional.png" alt="Card image cap" />
+					<div class="card-body">
+						<h2 class="card-title"><a
+								href="https://drive.google.com/open?id=1CNYvV43JNX6BZ9tmtLHdPKOcme9ZwNth">Chad Worthan
+								Resume</a></h2>
+						<p class="card-text">
+							Link to my Resume in Google Drive.
+						</p>
 					</div>
 				</div>
 			</div>
-			<!--EMAIL ADDRESS-->
-			<div class="row">
-				<div class="col-md-12">
-					<div class="form-group">
-						<label for="exampleFormControlInput1">Email address</label>
-						<!--INPUT TYPE EMAIL-->
-						<input type="email" class="form-control" id="exampleFormControlInput1"
-							placeholder="name@example.com" />
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="assets\images\linkedin.jpg" alt="Card image cap" />
+					<div class="card-body">
+						<h2 class="card-title"><a href="www.linkedin.com/in/chadrick-worthan">Chad Worthan
+								Linkedin</a></h2>
+						<p class="card-text">
+							Link to my Linkedin Profile.
+						</p>
 					</div>
 				</div>
 			</div>
-			<!--MESSAGE-->
-			<div class="row">
-				<div class="col-md-12">
-					<div class="form-group">
-						<label for="exampleFormControlSelect2">Message</label>
-						<!--MESSAGE ENTRY LARGER TEXT AREA THAN REGULAR TEXT TYPE-->
-						<textarea name="career[message]" class="form-control" tabindex="4"
-							placeholder="Write your message" required></textarea>
-					</div>
-				</div>
-			</div>
-			<button type="button" class="btn btn-primary btn-lg">Submit</button>
-		</form>
-	</section>
-	<!--FOOTER-->
-	<footer>DESIGNED BY CHAD WORTHAN</footer>
+		</div>
+
+
+
+		<!--FOOTER-->
+		<footer>DESIGNED BY CHAD WORTHAN</footer>
 </body>
 <!--JS SCRIPT-->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
